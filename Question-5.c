@@ -1,0 +1,17 @@
+//Write a program to calculate sum of cubes of first N natural numbers
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,c=0,n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+    for(a=1;a<=n;a++)
+    {
+        c=c+a*a*a;
+    }
+    printf("%d",c);
+    getch();
+}
+
+
